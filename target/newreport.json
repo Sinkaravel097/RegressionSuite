@@ -1,0 +1,245 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5641290100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to launch the chrome browser and hit the url of facebook",
+            "match": {
+              "location": "Facebook.user_has_to_launch_the_chrome_browser_and_hit_the_url_of_facebook()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4488874900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To verify the login functionality",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-verify-the-login-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 701490200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 344751400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to enter the username and password",
+            "match": {
+              "location": "Facebook.user_has_to_enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "vishal@gmail.com",
+                  "vishalgmail"
+                ]
+              },
+              {
+                "cells": [
+                  "sinkaravel@gmail.com",
+                  "sinkaravelmail"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9853349700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click the login button",
+            "match": {
+              "location": "Facebook.click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4545840700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to launch the chrome browser and hit the url of facebook",
+            "match": {
+              "location": "Facebook.user_has_to_launch_the_chrome_browser_and_hit_the_url_of_facebook()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1485999800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "To validate the create new account",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-validate-the-create-new-account",
+        "after": [
+          {
+            "result": {
+              "duration": 725083700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119038500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click create new account button",
+            "match": {
+              "location": "Facebookkk.click_create_new_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5370017500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user has enter the first name and last name",
+            "match": {
+              "location": "Facebookkk.user_has_enter_the_first_name_and_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167854600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user has to enter the mobile num or password",
+            "match": {
+              "location": "Facebookkk.user_has_to_enter_the_mobile_num_or_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136774200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user has to enter the new password",
+            "match": {
+              "location": "Facebookkk.user_has_to_enter_the_new_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1062464800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user has to select date of birth",
+            "match": {
+              "location": "Facebookkk.user_has_to_select_date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509990400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user has to click gender",
+            "match": {
+              "location": "Facebookkk.user_has_to_click_gender()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality",
+    "description": "",
+    "id": "to-validate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login/loggin.feature",
+    "tags": []
+  }
+]
